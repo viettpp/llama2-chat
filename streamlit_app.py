@@ -11,7 +11,7 @@ replicate_api = st.secrets['REPLICATE_API_TOKEN']
 # Set hyperparameters for LLM
 temperature = 0.5
 top_p = 0.7
-max_length = 120
+max_length = 512
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
